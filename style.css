@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/kelly-header-web.jpg");
+    /* Set a specific height */
+    height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+/*#about-section {
+
+}
+
+#profile-pic{
+
+} */
+
+#experience-section {
+    background: black;
+    color: white;
+}
+
+.card-feature{
+background: white;
+color:black;
+}
+
+.card-deck {
+    margin:20px;
+}
+
+.card {
+    background: black;
+    color: white;
+    margin: 40px;
+}
+
+
+
+footer {
+    background: black;
+    color: white;
+}
