@@ -55,6 +55,22 @@ color:black;
     margin: 40px;
 }
 
+.card{ 
+    transition: all .2s ease-in-out; 
+    }
+     
+.card:hover{ 
+    transform: scale(1.05); 
+    }
+
+    .card-link{ 
+        transition: all .2s ease-in-out; 
+        }
+         
+    .card-link:hover{ 
+        transform: scale(1.5); 
+        }
+
 
 
 footer {
