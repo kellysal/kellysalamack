@@ -35,6 +35,12 @@ h1{
 
 } */
 
+.img-thumbnail{
+    margin:10px;
+    height: 100px;
+    border: none;
+}
+
 #experience-section {
     background: black;
     color: white;
