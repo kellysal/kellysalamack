@@ -3,6 +3,7 @@ Full Stack Developer with a background in Psychology and Graphic Design. Graduat
 
 ![Screenshot](/images/screenshot.png)
 
+## Technical Skills
 * **Programming Languages:** HTML, CSS, JavaScript, Java
 * **Libraries & Frameworks:** jQuery, Node, Express, React, Bootstrap, Handlebars
 * **Database:** MySQL, MySQL Workbench, Sequel Pro, Sequelize, Mongo, Mongoose
