@@ -69,14 +69,17 @@ color:black;
     transform: scale(1.05); 
     }
 
-    .card-link{ 
+.card-link{ 
         transition: all .2s ease-in-out; 
         }
          
-    .card-link:hover{ 
+.card-link:hover{ 
         transform: scale(1.5); 
         }
-
+             
+.contact-link:hover{ 
+        transform: scale(1.5); 
+        }
 
 
 footer {
