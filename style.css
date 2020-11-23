@@ -1,39 +1,55 @@
+:root {
+    --primary: #bfbfbf;
+    --secondary: #9615db;
+    --tertiary: #909090;
+    --grey: #6b6b6b;
+    --dark-grey: #212121;
+    --black: #000;
+    --white: #fff;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    color: var(--black);
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("images/kelly-header-web.jpg");
-    /* Set a specific height */
-    height: 700px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: left;
-    color: white;
-    padding-top: 30%;
-    padding-left: 10%;
+.header-name {
+    font-size: 5em;
+}
+
+nav {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.nav-link {
+    color: var(--black);
+}
+
+.nav-link:hover {
+    color: var(--grey);
 }
 
 .container-fluid{
     padding: 0px;
 }
 
-/*#about-section {
-
-}
-
-#profile-pic{
+/* #about-section {
 
 } */
+
+#profile-pic{
+    width: 100%;
+    border-radius: 50%;
+}
 
 .img-thumbnail{
     margin:10px;
@@ -42,38 +58,83 @@ h1{
 }
 
 #experience-section {
-    background: black;
-    color: white;
+    padding-bottom: 10em;
 }
 
-.card-feature{
+.btn-outline-dark {
+    color: var(--black);
+    border-color: var(--black);
+    width: 155px;
+}
+
+.btn-outline-dark:hover {
+    color: var(--white);
+    border-color: var(--black);
+    background-color: var(--black);
+}
+
+.header-section {
+    padding:10em;
+}
+
+#about-section {
+    padding:10em;
+}
+
+.work-detail-card {
+    border: 0;
+}
+
+.experience-header {
+    background-color: var(--black);
+}
+
+.experience-header-text {
+    color:var(--white);
+    text-decoration: none;
+}
+
+.experience-header-text:hover {
+    color:var(--grey);
+    text-decoration: none;
+}
+
+.experience-header-text:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* .card-feature{
 background: white;
 color:black;
-}
+} */
 
 .card-deck {
     margin:20px;
 }
 
-.card {
-    background: black;
+.additional-project-card {
+    background-color: var(--black);
     color: white;
     margin: 40px;
 }
 
-.card{ 
+.additional-project-card { 
     transition: all .2s ease-in-out; 
     }
      
-.card:hover{ 
+.additional-project-card:hover { 
     transform: scale(1.05); 
     }
 
-.card-link{ 
+.additional-project-card-link{ 
         transition: all .2s ease-in-out; 
         }
          
-.card-link:hover{ 
+.additional-project-card-link:hover{ 
         transform: scale(1.5); 
         }
              
@@ -81,8 +142,21 @@ color:black;
         transform: scale(1.5); 
         }
 
+#additional-work-section {
+    padding-top: 10em;
+}
 
 footer {
-    background: black;
+    background-color: black;
     color: white;
+}
+
+@media(max-width:767px) {
+    .header-section {
+        padding:1em;
+    }
+    
+    #about-section {
+        padding:1em;
+    }
 }
